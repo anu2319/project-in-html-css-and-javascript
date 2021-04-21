@@ -1,0 +1,25 @@
+body{
+	margin:0;
+	padding:0;
+	background:#4CE73C;
+	font-family:Monospace;
+}
+.color{
+	margin-top:280px;
+	text-align:center;
+}
+#hex{
+	color:black;
+	text-transform:uppercase;
+	font-size:35px;
+	margin:20px;
+}
+.color button{
+	color:black;
+	border:3px solid white;
+	font-size:30px;
+	text-align:center;
+}
+h1{
+	font-size:33px;
+}

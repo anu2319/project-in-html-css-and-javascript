@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Document</title>
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="color">
+   <h1>HEX COLOR:<span id="hex">#4CE73C</span></h1>
+   <button onclick="getNewColor()">Generate New Color</button>
+    </div>
+	 
+	 
+   <script type="text/javascript">
+   function getNewColor(){
+	var symbols,color;
+	symbols="0123456789ABCDEF";
+	color="#";
+	for(var i=0;i<8;i++){
+		color= color+symbols[Math.floor(Math.random()*16)];
+	}
+	document.body.style.background=color;
+	document.getElementById("hex").innerHTML=color;
+}	
+</script>
+  
+ </body>
+ </html>
+ 
+  
